@@ -1,0 +1,22 @@
+{
+    "name": "Recipe finder extension",
+    "description": "Chrome extension using an IndexedDB to hold recipe article links and ingredients",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16": "/images/book16.png",
+        "32": "/images/book32.png",
+        "48": "/images/book48.png",
+        "128": "/images/book128.png"
+    },
+    "background": {
+        "scripts": [
+            "./background.js"
+        ]
+    },
+    "options_page": "./options.html",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": []
+}
