@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Querying</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+    <div class="container mt-3">
+        <h1 style="text-align:center;"> CS410 Recipe Library </h1>
+        <hr></hr>
+
+        <div id="content-div" >
+            <!--style="display:none"-->
+            <h4 style="text-align:left;"> Add recipes to database </h4>
+      
+            <form id="save-context" method="GET" style="height:110px">
+              <div>
+                <input id="recipe-url" style="width:400px;height:20px" type="text" placeholder="Recipe link"><br><br>
+                <input id="ingredients-list" style="width:400px;height:20px" type="text" name="ingredients" placeholder="Ingredients list" required><br><br>
+                <input type="submit" style="height:30px;width:160px" value="Submit to database">
+              </div>
+            </form>
+
+            <hr></hr>
+            <h4 style="text-align:left;"> Query for recipes with ingredients </h4>
+        
+            <form id="search-recipes" method="GET" style="height:110px">
+              <div>
+                <input id="ingredients-query" style="width:400px;height:20px" type="text" name="dl_search_query" placeholder="List your ingredients separated by commas" required><br><br>
+                <input type="submit" style="height:30px;width:160px" value="Search for recipes">
+              </div>
+            </form>
+
+            <form id="get-all-recipes" method="GET">
+              <div>
+                <input type="submit" style="height:30px;width:160px" value="Get all recipes">
+              </div>
+            </form>
+
+            <hr></hr>
+            <h4 style="text-align:left;"> Recipe Results </h4>
+
+            <div>
+              <table id="results" style="display:none">
+                <thead>
+                  <tr>
+                    <th>Recipe Link</th>
+                    <th>All Ingredients</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                      <td id="link"></td>
+                      <td id="ingredients"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+    </div>
+</body>
+<script src="popup-script.js"> </script>
+</html>
