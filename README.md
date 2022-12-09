@@ -18,9 +18,11 @@
 2. Enter in all the ingredients separated by commas to the second box
 3. Submit the information to the database as long as the URL doesn't already exist
 
-**Query for recipes with or without ingredients**
+**Query for recipes with ingredients**
 1. Enter in the ingredients that you already have separated by commas into the box
 2. Submit the query
 3. A table will pop up with a ranked list of recipe matches
 
-1. Hit the button to get all recipe links saved in the database
+**Other uses**
+- Hit the "Get all recipes" button to get all recipe links saved in the database
+- Hit the "Delete database" button to erase all recipes in the database
