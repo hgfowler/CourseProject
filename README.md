@@ -1,5 +1,9 @@
 # **CS 410 CourseProject**
 
+### **Group: Team Mountaineer**
+Members: Hannah Fowler - hannahf4@illinois.edu
+
+
 ### **How to install the extension:**
 
 1. In your Chrome browser, paste chrome://extensions/ into the address bar and navigate to the page.
