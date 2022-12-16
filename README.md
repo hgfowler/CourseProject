@@ -3,6 +3,8 @@
 ### **Group: Team Mountaineer**
 Members: Hannah Fowler - hannahf4@illinois.edu
 
+### **Video Demonstration:**
+https://drive.google.com/file/d/1U6f7ujJe9RCin4GCS_VNNKr02nY3PUuY/view?usp=sharing
 
 ### **How to install the extension:**
 
